@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+#first{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+      
+}
+ 
+#third{
+    background-color: teal;
+    color: white;
+    text-align: center;
+     
+}
+[class="website menu"]{
+    color: teal;
+    list-style-type: none;
+    display: block;
+
+}
+#forth{
+    color: teal;
+}
+#fifth{
+    color: teal;
+}
+#sixth{
+    color: teal;
+}
+@media screen and (max-width:600 px) {
+    .website manu{
+        flex-direction: row;
+    }  
+}   
+.content{
+display: flex;
+}
+.form {
+    width: 1000px;
+}
+
+</style>
+</head>
+<body>
+    <div class="page-container">
+        <header id="first">
+            <h1>My Awesome Website</h1>
+            <p >Tagline</p>
+        </header>
+        </div>
+        <div class="content">
+          <aside>
+                <nav>
+                    <ul class="website menu">
+                        
+                        <li><a style="text-decoration:none" id="forth" href="index.html">Home</a></li>
+                        
+                        <li><a style="text-decoration:none" id="fifth" href="about.html">About</a></li>
+                        
+                        <li><a style="text-decoration:none" id="sixth" href="contact.html">Contact Us</a></li>
+                        <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div>
+            <main>
+                <h2>Contact Us</h2>
+                <div>
+                <form class="form">
+                    <label for="name">Your Name: </label>
+                    <input type="text" name="name" />
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" />
+                    <label for="message">Your Message</label>
+                    <textarea name="message" rows="10"></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+            </main>
+        </div>
+        </div>
+        <div>
+        <footer id="third" class="footer">
+            <p>&copy; Yegane 2024. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
