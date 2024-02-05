@@ -1,7 +1,7 @@
 :root {
     --primary-color: #3498db; 
     --secondary-color: #2ecc71; 
-    --accent-color: #e74c3c;
+    --accent-color: lightpink;
     --background-color: #ecf0f1;
     --text-color: #34495e; 
   }
@@ -9,27 +9,80 @@
 #footer{
     background-color: var(--accent-color);
 }  
-#nav{
-    display: flex;
-    background-color: var(--background-color);
+#h1{
     color: var(--text-color);
-    padding: 0.5rem;
-    box-shadow: #34495e;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--accent-color);
+}
+#websitemenu{
+    display: flex; 
+    list-style: none ; 
+    padding: 1rem;
+    transition:3s ease;
     
 
 }
-#nav:hover{
-    transform: scale(1.1); 
-    box-shadow: 0 0 15px #34495e(0, 0, 0, 0.3);
-    transition: up 1s ,transform 1s , box-shadow 2s ease;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+#link1{
+    color: var(--text-color);
+    padding: 1rem;
+    box-shadow: 5px 5px 4px grey;
+ 
+    
 }
+#link2{
+    color: var(--text-color);
+    padding: 1rem;
+    box-shadow: 5px 5px 4px grey;
+   
+}
+#link3{
+    color: var(--text-color);
+    padding: 1rem;
+    box-shadow: 5px 5px 4px grey;
+    
+}
+#link4{
+    color: var(--text-color);
+    padding: 1rem;
+    box-shadow: 5px 5px 4px grey;
+  
+}
+#websitemenu a:hover {
+    background-color:  var(--accent-color);
+    color: black;
+    transition: 3s ease;
+    
+  }
 
 .h{
-    text-align: center;
     color: var(--text-color);
-    padding: 2rem;
+    padding: 1.5rem;
     
 }
-
-
+#p1{
+    background-color: #ffff;
+    padding: 0.5rem;
+    transition: 2s ease, transform 1s;
+}
+#p1:hover{
+    background-color: var(--accent-color);
+    transform:scale(1.02);
+    transition: 2s ease, transform 1s;
+}
+#p2{
+    background-color: #ffff;
+    padding: 0.5rem;
+    transition: 2s ease, transform 1s;
+}
+#p2:hover{
+    background-color: var(--accent-color);
+    transform:scale(1.02);
+    transition: 2s ease, transform 1s;
+}
+@media screen and (max-width:600px) {
+    .website manu{
+       flex-direction: row
+        
+    }  
+} 
