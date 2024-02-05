@@ -129,7 +129,7 @@
     transition: 2s ease;
 }
 @media screen and (max-width:600px) {
-    #websitemanu{
+    #websitemenu{
        flex-direction: row
         
     }  
